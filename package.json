@@ -1,7 +1,7 @@
 {
-  "name": "release-js",
+  "name": "release-env",
   "version": "0.1.0",
-  "description": "Utlities for Release",
+  "description": "Environment Variable Mapping for Release",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
