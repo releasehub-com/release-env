@@ -2,7 +2,7 @@
 // https://github.com/facebook/create-react-app/blob/26a1c7f6b38fe7119a8fd92d10eb63597376d7de/packages/react-scripts/config/env.js
 
 // Populates process.env from RELEASE_ environment variables
-function getReleaseEnvironmentVariables() {
+function getReleaseEnvironmentVariables(publicUrl) {
   const RELEASE = /^RELEASE_/i;
 
   const raw = Object.keys(process.env)
